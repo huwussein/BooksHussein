@@ -3,36 +3,86 @@
 {% block title %}Hello IndexController!{% endblock %}
 
 {% block body %}
-<style>
-    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
-    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
-</style>
+<!DOCTYPE html>
+<html lang="en">
 
-    <!-- Page Content -->
-    <div class="container">
+<head>
 
-        <!-- Portfolio Item Heading -->
-        <h1 class="my-4">Hussein Al Dawasry
-            <small>Boeken</small>
-        </h1>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-        <!-- Portfolio Item Row -->
-        <div class="row">
+  <title>Boeken van Hussein</title>
 
-            <div class="col-md-8">
-                <img class="img-fluid" src="https://iili.io/HivURj.jpg" alt="">
-            </div>
+  <!-- Bootstrap Core CSS -->
+  <link href="https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-            <div class="col-md-4">
-                <h3 class="my-3">HusseinBooks</h3>
-                <p>Welkom op HusseinBooks.nl</p>
-                <h3 class="my-3">Boeken</h3>
-                <ul>
-                    <li>Hussein Al Dawasry Biografie</li>
-                    <li>Hussein Al Dawasry Biografie 2.0</li>
-                </ul>
-            </div>
+  <!-- Custom Fonts -->
+  <link href="https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
 
-        </div>
-        <!-- /.row -->
+  <!-- Custom CSS -->
+  <link href="https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/css/stylish-portfolio.min.css" rel="stylesheet">
+
+    <style>
+        .navbar.navbar-expand-lg.navbar-dark.bg-dark.static-top{display:none;}
+    </style>
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <a class="menu-toggle rounded" href="#">
+    <i class="fas fa-bars"></i>
+  </a>
+  <nav id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+      <li class="sidebar-brand">
+        <a class="js-scroll-trigger" href="http://127.0.0.1:8000/">Home</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="http://127.0.0.1:8000/book">Boeken</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="http://127.0.0.1:8000/reviews">Reviews</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#contact">Contact</a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Header -->
+  <header class="masthead d-flex">
+    <div class="container text-center my-auto">
+      <h1 class="mb-1">Boeken van Hussein</h1>
+      <h3 class="mb-5">
+        <em>Beste boeken</em>
+      </h3>
+      <a class="btn btn-primary btn-xl js-scroll-trigger" href="http://127.0.0.1:8000/book">Shop</a>
+    </div>
+    <div class="overlay"></div>
+  </header>
+
+  <!-- Scroll to Top Button-->
+  <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+    <i class="fas fa-angle-up"></i>
+  </a>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/vendor/jquery/jquery.min.js"></script>
+  <script src="https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/js/stylish-portfolio.min.js"></script>
+
+</body>
+
+</html>
+
 {% endblock %}
